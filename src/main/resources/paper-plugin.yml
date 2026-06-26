@@ -1,0 +1,6 @@
+name: MCCodeCamp
+version: '${version}'
+
+main: me.simoncrafter.mCCodeCamp.MCCodeCamp
+api-version: '1.21.1'
+load: POSTWORLD
