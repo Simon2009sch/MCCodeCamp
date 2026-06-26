@@ -4,13 +4,14 @@ import me.simoncrafter.mCCodeCamp.lib.PersistantDataTags;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.persistence.PersistentDataType;
 
 import java.util.*;
 
-public class ActivationEvents implements EventListener {
+public class ActivationEvents implements Listener {
 
     private static Map<Long, IButtonActivated> buttonMap = new HashMap<>();
 

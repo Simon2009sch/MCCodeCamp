@@ -1,5 +1,6 @@
 package me.simoncrafter.mCCodeCamp;
 
+import me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents;
 import me.simoncrafter.mCCodeCamp.lib.ConfigManager;
 import me.simoncrafter.mCCodeCamp.lib.Logs;
 import org.bukkit.Bukkit;
@@ -16,6 +17,7 @@ public final class MCCodeCamp extends JavaPlugin {
     public void onEnable() {
         instance = this;
         ConfigManager.load();
+        Bukkit.getPluginManager().registerEvents(new ActivationEvents(), this);
     }
 
     @Override
