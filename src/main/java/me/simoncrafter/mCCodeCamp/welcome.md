@@ -6,6 +6,10 @@ ___
 There is a Minecraft Server set up in your Project files. To start it up use the dropdown at the top right. <br>
 Then click the play button next to `Minecraft Server`. At the bottom of the screen a console window will pop up.<br>
 In there you can enter server commands. It will also show the logs of the server. Your logs will also show up in there<br>
+<br>
+To join the minecraft server start up your minecraft game (Java or Bedrock) and join the server at `localhost`<br>
+For Java Edition you will have to start up `1.21.1` or later. Tough it is recommended to use Java Edition bedrock is also<br>
+to join. (May not be stabil)
 ___
 To get started, your course stats at the path a `./YOURCODE/basics/example1`
 Start by opening the folder. In there is a `instructions.md` file.<br>

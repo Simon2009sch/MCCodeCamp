@@ -19,6 +19,7 @@ out/
 
 # Package Files #
 *.jar
+!server/**
 *.war
 *.nar
 *.ear
@@ -111,3 +112,6 @@ buildNumber.properties
 
 # Common working directory
 run/
+
+# session lock filr from server
+*.lock
