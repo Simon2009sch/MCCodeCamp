@@ -29,6 +29,9 @@ public class ActivationEvents implements Listener {
 
     @EventHandler
     public void onPlayerInteractEvent(PlayerInteractEvent event) {
+        if (event.getClickedBlock() == null) {
+            return;
+        }
         Entity entity = getNearbyButtonEntityMarkerEntities(event.getClickedBlock().getLocation());
         if (event.getAction() == Action.RIGHT_CLICK_BLOCK && entity != null && event.getHand() == EquipmentSlot.HAND) {
             String id = entity.getPersistentDataContainer().get(PersistantDataTags.activationButton, PersistentDataType.STRING);

@@ -20,7 +20,7 @@ public class Main implements IButtonActivated {
 
     @Override // this override is also out of scope of the basics
     public void buttonPressed(Player player, Block button) {
-        Chat.message("You just pressed the button that was hooked up to the codea", player);
+        Chat.message("You just pressed the button that was hooked up to the code", player);
         Logs.info("The button was pressed!"); // equivalent to System.out.println()
         player.playSound(player, Sound.ENTITY_GENERIC_EXPLODE, 1, 1);
     }
