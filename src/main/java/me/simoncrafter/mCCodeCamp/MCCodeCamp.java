@@ -34,6 +34,9 @@ import java.util.logging.Logger;
 
 public final class MCCodeCamp extends JavaPlugin {
 
+
+    // this is a git modification test
+
     private static JavaPlugin instance;
     private static boolean reloadOnNextTick = false;
     private com.sun.net.httpserver.HttpServer reloadServer;
