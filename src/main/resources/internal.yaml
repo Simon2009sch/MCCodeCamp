@@ -1,1 +1,2 @@
 autoreload: false
+unlockedMode: true # if true, disables auto deop

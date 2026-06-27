@@ -13,6 +13,8 @@ public class ConfigManager {
 
     private static final String autoReloadConfigString = "autoreload";
     private static boolean autoReload = false;
+    private static final String unlockedModeConfigString = "unlockedMode";
+    private static boolean unlockedMode = false;
 
     public static void load() {
         configFile = new File(MCCodeCamp.getInstance().getDataFolder(), CONFIG_FILEPATH);
@@ -27,6 +29,7 @@ public class ConfigManager {
         }
 
         autoReload = config.getBoolean(autoReloadConfigString, false);
+        unlockedMode = config.getBoolean(unlockedModeConfigString, false);
     }
 
     public static boolean isAutoReload() {
@@ -37,6 +40,14 @@ public class ConfigManager {
         autoReload = value;
         config.set(autoReloadConfigString, value);
         save();
+    }
+
+    public static boolean isUnlockedMode() {
+        return unlockedMode;
+    }
+
+    public static void setUnlockedMode(boolean unlockedMode) {
+        ConfigManager.unlockedMode = unlockedMode;
     }
 
     private static void save() {

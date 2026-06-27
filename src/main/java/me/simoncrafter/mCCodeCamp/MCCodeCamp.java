@@ -1,36 +1,19 @@
 package me.simoncrafter.mCCodeCamp;
 
 import me.simoncrafter.CraftersChatDialogs.InstanceData;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.actions.ClearCharAction;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.actions.CommandAction;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.actions.CustomAction;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.actions.MessageAction;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.buttons.Button;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.questions.ConfirmQuestion;
-import me.simoncrafter.CraftersChatDialogs.dialogs.prefabs.questions.GenericQuestion;
-import me.simoncrafter.mCCodeCamp.YOURCODE.basics.example1.Main;
+import me.simoncrafter.mCCodeCamp.YOURCODE.basics.example1.Example1;
+import me.simoncrafter.mCCodeCamp.lib.*;
 import me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents;
-import me.simoncrafter.mCCodeCamp.lib.Chat;
 import me.simoncrafter.mCCodeCamp.lib.Commands.ButtonifyCommand;
 import me.simoncrafter.mCCodeCamp.lib.Commands.ReloadInterfaceCommand;
-import me.simoncrafter.mCCodeCamp.lib.ConfigManager;
-import me.simoncrafter.mCCodeCamp.lib.Logs;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextDecoration;
 import org.bukkit.Bukkit;
-import org.bukkit.Sound;
-import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
-import org.jspecify.annotations.NonNull;
 
-import javax.inject.Named;
-import javax.print.attribute.URISyntax;
 import java.net.InetSocketAddress;
-import java.net.URISyntaxException;
-import java.nio.file.*;
-import java.util.logging.Logger;
 
 public final class MCCodeCamp extends JavaPlugin {
 
@@ -46,10 +29,11 @@ public final class MCCodeCamp extends JavaPlugin {
         instance = this;
         ConfigManager.load();
         Bukkit.getPluginManager().registerEvents(new ActivationEvents(), this);
+        Bukkit.getPluginManager().registerEvents(new Listeners(), this);
         Bukkit.getPluginCommand("buttonify").setExecutor(new ButtonifyCommand());
         Bukkit.getPluginCommand("reloadMCCodeCampInterface").setExecutor(new ReloadInterfaceCommand());
         InstanceData.register(this);
-        Main main = new Main();
+        CourseLoader.loadExamples();
         Chat.broadcast(Component.text("Your code was successfully loaded!", NamedTextColor.GREEN, TextDecoration.BOLD));
 
         new BukkitRunnable(){

@@ -1,329 +1,475 @@
-[15:28:00] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[15:28:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[15:28:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:28:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
-[15:28:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 728ms.
-[15:28:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[15:28:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[20:16:07] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[20:16:07] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[20:16:08] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:16:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:16:09] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 828ms.
+[20:16:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[20:16:10] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - PlugManX (3.0.3)
-[15:28:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[20:16:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - LuckPerms (5.5.57), MCCodeCamp (1.0), Multiverse-Core (5.7.1), PlaceholderAPI (2.12.2)
-[15:28:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:28:09] [ServerMain/INFO]: Loaded 1290 recipes
-[15:28:09] [ServerMain/INFO]: Loaded 1399 advancements
-[15:28:09] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:28:09] [Server thread/INFO]: Loading properties
-[15:28:09] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[15:28:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:28:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:28:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:28:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[15:28:10] [Server thread/INFO]: Default game type: SURVIVAL
-[15:28:10] [Server thread/INFO]: Generating keypair
-[15:28:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:28:10] [Server thread/INFO]: Using default channel type
-[15:28:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[15:28:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:28:11] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[15:28:11] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
-[15:28:11] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[15:28:11] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
-[15:28:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
-[15:28:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:28:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:28:11] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
-[15:28:12] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:28:12] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[15:28:12] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[15:28:12] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[15:28:12] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
-[15:28:12] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:28:12] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
-[15:28:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
-[15:28:12] [Server thread/INFO]:         __    
-[15:28:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
-[15:28:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:28:12] [Server thread/INFO]: 
-[15:28:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:28:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:28:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:28:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 932ms)
-[15:28:13] [Server thread/INFO]: Preparing level "world"
-[15:28:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:28:15] [Server thread/INFO]: Time elapsed: 1195 ms
-[15:28:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:28:15] [Server thread/INFO]: Time elapsed: 73 ms
-[15:28:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:28:15] [Server thread/INFO]: Time elapsed: 47 ms
-[15:28:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[15:28:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[15:28:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[15:28:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
-[15:28:16] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[15:28:16] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[15:28:16] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[15:28:16] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
-[15:28:16] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
-[15:28:16] [Server thread/INFO]: [spark] Starting background profiler...
-[15:28:16] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[15:28:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[15:28:16] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[15:28:16] [Server thread/INFO]: Done preparing level "world" (3.598s)
-[15:28:16] [Server thread/INFO]: Starting remote control listener
-[15:28:16] [Server thread/INFO]: Thread RCON Listener started
-[15:28:16] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[15:28:16] [Server thread/INFO]: Running delayed init tasks
-[15:28:16] [Server thread/INFO]: Done (17.600s)! For help, type "help"
-[15:28:16] [Server thread/INFO]: Timings Reset
-[15:28:22] [User Authenticator #0/INFO]: UUID of player __Crafter__ is 4984999a-09e7-4d2d-aa81-e0b89d59382a
-[15:28:22] [Server thread/INFO]: __Crafter__ joined the game
-[15:28:23] [Server thread/INFO]: __Crafter__[/127.0.0.1:55863] logged in with entity id 34 at ([world]230.43699745587, 82.0, 63.41799571349248)
-[15:28:24] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
-[15:28:24] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
-[15:28:53] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:28:53] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:28:54] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:28:56] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:28:56] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:28:57] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to MCCodeCamp v1.0
-java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.event.player.PlayerInteractEvent.getClickedBlock()" is null
-	at MCCodeCamp-1.0.jar/me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents.onPlayerInteractEvent(ActivationEvents.java:32) ~[MCCodeCamp-1.0.jar:?]
-	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor19.execute(Unknown Source) ~[?:?]
-	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:604) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:560) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:555) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:551) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2592) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:16) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:56) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1535) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1512) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1505) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1464) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1471) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1316) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:329) ~[paper-1.21.1.jar:1.21.1-133-3cb8529]
-	at java.base/java.lang.Thread.run(Thread.java:1447) ~[?:?]
-[15:29:32] [Server thread/INFO]: Reloading your code...
-[15:29:32] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
-[15:29:32] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
-[15:29:32] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
-[15:29:33] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 527ms.
-[15:29:33] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
-[15:29:33] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
-[15:29:33] [Server thread/INFO]: Your code was successfully loaded!
-[15:29:33] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
-[15:29:33] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
-[15:29:58] [Server thread/INFO]: __Crafter__ issued server command: /buttonify
-[15:29:59] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 702c060a-d375-4c96-b7bc-f6a15f9b7363
-[15:30:04] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 5c7105e6-f7f5-48c1-b00f-dd6c4ecc849f
-[15:30:09] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:09] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:09] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:10] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:10] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:10] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:10] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:30:10] [Server thread/INFO]: [MCCodeCamp] The button was pressed!
-[15:36:32] [Server thread/INFO]: Stopping the server
-[15:36:32] [Server thread/INFO]: Stopping server
-[15:36:32] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
-[15:36:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.57
-[15:36:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[15:36:32] [Server thread/INFO]: [LuckPerms] Closing storage...
-[15:36:32] [Server thread/INFO]: [LuckPerms] Goodbye!
-[15:36:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.7.1
-[15:36:32] [Server thread/INFO]: [Multiverse-Core] - Disabled
-[15:36:32] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.3
-[15:36:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
-[15:36:32] [Server thread/INFO]: Saving players
-[15:36:32] [Server thread/INFO]: __Crafter__ lost connection: Server closed
-[15:36:32] [Server thread/INFO]: __Crafter__ left the game
-[15:36:32] [Server thread/INFO]: Saving worlds
-[15:36:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saved 864 block chunks, 157 entity chunks, 2 poi chunks in world 'world' in 0,45s
-[15:36:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
-[15:36:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:36:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[15:36:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:36:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:36:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:36:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:16:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:16:16] [ServerMain/INFO]: Loaded 1290 recipes
+[20:16:16] [ServerMain/INFO]: Loaded 1399 advancements
+[20:16:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:16:16] [Server thread/INFO]: Loading properties
+[20:16:16] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:16:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:16:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:16:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:16:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[20:16:17] [Server thread/INFO]: Default game type: SURVIVAL
+[20:16:17] [Server thread/INFO]: Generating keypair
+[20:16:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:16:17] [Server thread/INFO]: Using default channel type
+[20:16:17] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:16:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:16:18] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[20:16:18] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
+[20:16:18] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[20:16:18] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:16:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[20:16:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:16:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:16:18] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
+[20:16:19] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:16:19] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[20:16:19] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[20:16:19] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[20:16:19] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[20:16:19] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:16:19] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[20:16:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[20:16:19] [Server thread/INFO]:         __    
+[20:16:19] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[20:16:19] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:16:19] [Server thread/INFO]: 
+[20:16:19] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:16:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:16:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:16:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1270ms)
+[20:16:20] [Server thread/INFO]: Preparing level "world"
+[20:16:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:16:22] [Server thread/INFO]: Time elapsed: 1207 ms
+[20:16:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:16:22] [Server thread/INFO]: Time elapsed: 98 ms
+[20:16:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:16:22] [Server thread/INFO]: Time elapsed: 69 ms
+[20:16:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[20:16:23] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:16:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[20:16:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[20:16:24] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:16:24] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:16:24] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[20:16:24] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:16:24] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:16:25] [Server thread/INFO]: [spark] Starting background profiler...
+[20:16:25] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:16:25] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:16:25] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:16:25] [Server thread/INFO]: Done preparing level "world" (4.389s)
+[20:16:25] [Server thread/INFO]: Starting remote control listener
+[20:16:25] [Server thread/INFO]: Thread RCON Listener started
+[20:16:25] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[20:16:25] [Server thread/INFO]: Running delayed init tasks
+[20:16:25] [Server thread/INFO]: Done (18.728s)! For help, type "help"
+[20:16:25] [Server thread/INFO]: Timings Reset
+[20:16:40] [User Authenticator #0/INFO]: UUID of player __Crafter__ is 4984999a-09e7-4d2d-aa81-e0b89d59382a
+[20:16:41] [Server thread/INFO]: __Crafter__ joined the game
+[20:16:41] [luckperms-command-executor/INFO]: [LP] __crafter__ had their existing parent groups cleared, and now only inherits student in context global.
+[20:16:41] [Server thread/INFO]: __Crafter__[/127.0.0.1:50497] logged in with entity id 32 at ([world]229.69999998807907, 82.0, 66.3737184980931)
+[20:19:20] [Server thread/INFO]: Made __Crafter__ a server operator
+[20:19:25] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[20:19:25] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[20:28:32] [Server thread/INFO]: Reloading your code...
+[20:28:32] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:28:32] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:28:32] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:28:33] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 379ms.
+[20:28:33] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:28:33] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:28:33] [Server thread/INFO]: Your code was successfully loaded!
+[20:28:33] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:28:33] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:29:16] [Server thread/INFO]: Reloading your code...
+[20:29:16] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:29:16] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:29:16] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:29:16] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 209ms.
+[20:29:16] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:29:16] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:29:16] [Server thread/INFO]: Your code was successfully loaded!
+[20:29:16] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:29:16] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:32:58] [Server thread/INFO]: Reloading your code...
+[20:32:58] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:32:58] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:32:58] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:32:58] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 193ms.
+[20:32:58] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:32:58] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:32:58] [Server thread/INFO]: Your code was successfully loaded!
+[20:32:58] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:32:58] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:33:52] [Server thread/INFO]: Reloading your code...
+[20:33:52] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:33:52] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:33:52] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:33:52] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 182ms.
+[20:33:52] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:33:52] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:33:52] [Server thread/INFO]: Your code was successfully loaded!
+[20:33:52] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:33:52] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:36:40] [Server thread/INFO]: Reloading your code...
+[20:36:40] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:36:40] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:36:40] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:36:40] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 184ms.
+[20:36:40] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:36:40] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:36:40] [Server thread/INFO]: Your code was successfully loaded!
+[20:36:40] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:36:40] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:38:55] [Server thread/INFO]: Reloading your code...
+[20:38:55] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:38:55] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:38:55] [Paper Plugin Remapper Thread - 8/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:38:56] [Paper Plugin Remapper Thread - 8/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 176ms.
+[20:38:56] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:38:56] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:38:56] [Server thread/INFO]: Your code was successfully loaded!
+[20:38:56] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:38:56] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:38:58] [Server thread/INFO]: 230 082 058
+[20:38:58] [Server thread/INFO]: 230 182 058
+[20:38:58] [Server thread/INFO]: 230 282 058
+[20:38:58] [Server thread/INFO]: 230 382 058
+[20:38:58] [Server thread/INFO]: 230 482 058
+[20:38:58] [Server thread/INFO]: 230 582 058
+[20:38:58] [Server thread/INFO]: 231 082 058
+[20:38:58] [Server thread/INFO]: 231 182 058
+[20:38:58] [Server thread/INFO]: 231 282 058
+[20:38:58] [Server thread/INFO]: 231 382 058
+[20:38:58] [Server thread/INFO]: 231 482 058
+[20:38:58] [Server thread/INFO]: 231 582 058
+[20:38:58] [Server thread/INFO]: 232 082 058
+[20:38:58] [Server thread/INFO]: 232 182 058
+[20:38:58] [Server thread/INFO]: 232 282 058
+[20:38:58] [Server thread/INFO]: 232 382 058
+[20:38:58] [Server thread/INFO]: 232 482 058
+[20:38:58] [Server thread/INFO]: 232 582 058
+[20:38:58] [Server thread/INFO]: 233 082 058
+[20:38:58] [Server thread/INFO]: 233 182 058
+[20:38:58] [Server thread/INFO]: 233 282 058
+[20:38:58] [Server thread/INFO]: 233 382 058
+[20:38:58] [Server thread/INFO]: 233 482 058
+[20:38:58] [Server thread/INFO]: 233 582 058
+[20:38:58] [Server thread/INFO]: 234 082 058
+[20:38:58] [Server thread/INFO]: 234 182 058
+[20:38:58] [Server thread/INFO]: 234 282 058
+[20:38:58] [Server thread/INFO]: 234 382 058
+[20:38:58] [Server thread/INFO]: 234 482 058
+[20:38:58] [Server thread/INFO]: 234 582 058
+[20:38:58] [Server thread/INFO]: 235 082 058
+[20:38:58] [Server thread/INFO]: 235 182 058
+[20:38:58] [Server thread/INFO]: 235 282 058
+[20:38:58] [Server thread/INFO]: 235 382 058
+[20:38:58] [Server thread/INFO]: 235 482 058
+[20:38:58] [Server thread/INFO]: 235 582 058
+[20:38:58] [Server thread/INFO]: 236 082 058
+[20:38:58] [Server thread/INFO]: 236 182 058
+[20:38:58] [Server thread/INFO]: 236 282 058
+[20:38:58] [Server thread/INFO]: 236 382 058
+[20:38:58] [Server thread/INFO]: 236 482 058
+[20:38:58] [Server thread/INFO]: 236 582 058
+[20:39:00] [Server thread/INFO]: 230 082 058
+[20:39:00] [Server thread/INFO]: 230 182 058
+[20:39:00] [Server thread/INFO]: 230 282 058
+[20:39:00] [Server thread/INFO]: 230 382 058
+[20:39:00] [Server thread/INFO]: 230 482 058
+[20:39:00] [Server thread/INFO]: 230 582 058
+[20:39:00] [Server thread/INFO]: 231 082 058
+[20:39:00] [Server thread/INFO]: 231 182 058
+[20:39:00] [Server thread/INFO]: 231 282 058
+[20:39:00] [Server thread/INFO]: 231 382 058
+[20:39:00] [Server thread/INFO]: 231 482 058
+[20:39:00] [Server thread/INFO]: 231 582 058
+[20:39:00] [Server thread/INFO]: 232 082 058
+[20:39:00] [Server thread/INFO]: 232 182 058
+[20:39:00] [Server thread/INFO]: 232 282 058
+[20:39:00] [Server thread/INFO]: 232 382 058
+[20:39:00] [Server thread/INFO]: 232 482 058
+[20:39:00] [Server thread/INFO]: 232 582 058
+[20:39:00] [Server thread/INFO]: 233 082 058
+[20:39:00] [Server thread/INFO]: 233 182 058
+[20:39:00] [Server thread/INFO]: 233 282 058
+[20:39:00] [Server thread/INFO]: 233 382 058
+[20:39:00] [Server thread/INFO]: 233 482 058
+[20:39:00] [Server thread/INFO]: 233 582 058
+[20:39:00] [Server thread/INFO]: 234 082 058
+[20:39:00] [Server thread/INFO]: 234 182 058
+[20:39:00] [Server thread/INFO]: 234 282 058
+[20:39:00] [Server thread/INFO]: 234 382 058
+[20:39:00] [Server thread/INFO]: 234 482 058
+[20:39:00] [Server thread/INFO]: 234 582 058
+[20:39:00] [Server thread/INFO]: 235 082 058
+[20:39:00] [Server thread/INFO]: 235 182 058
+[20:39:00] [Server thread/INFO]: 235 282 058
+[20:39:00] [Server thread/INFO]: 235 382 058
+[20:39:00] [Server thread/INFO]: 235 482 058
+[20:39:00] [Server thread/INFO]: 235 582 058
+[20:39:00] [Server thread/INFO]: 236 082 058
+[20:39:00] [Server thread/INFO]: 236 182 058
+[20:39:00] [Server thread/INFO]: 236 282 058
+[20:39:00] [Server thread/INFO]: 236 382 058
+[20:39:00] [Server thread/INFO]: 236 482 058
+[20:39:00] [Server thread/INFO]: 236 582 058
+[20:39:00] [Server thread/INFO]: 230 082 058
+[20:39:00] [Server thread/INFO]: 230 182 058
+[20:39:00] [Server thread/INFO]: 230 282 058
+[20:39:00] [Server thread/INFO]: 230 382 058
+[20:39:00] [Server thread/INFO]: 230 482 058
+[20:39:00] [Server thread/INFO]: 230 582 058
+[20:39:00] [Server thread/INFO]: 231 082 058
+[20:39:00] [Server thread/INFO]: 231 182 058
+[20:39:00] [Server thread/INFO]: 231 282 058
+[20:39:00] [Server thread/INFO]: 231 382 058
+[20:39:00] [Server thread/INFO]: 231 482 058
+[20:39:00] [Server thread/INFO]: 231 582 058
+[20:39:00] [Server thread/INFO]: 232 082 058
+[20:39:00] [Server thread/INFO]: 232 182 058
+[20:39:00] [Server thread/INFO]: 232 282 058
+[20:39:00] [Server thread/INFO]: 232 382 058
+[20:39:00] [Server thread/INFO]: 232 482 058
+[20:39:00] [Server thread/INFO]: 232 582 058
+[20:39:00] [Server thread/INFO]: 233 082 058
+[20:39:00] [Server thread/INFO]: 233 182 058
+[20:39:00] [Server thread/INFO]: 233 282 058
+[20:39:00] [Server thread/INFO]: 233 382 058
+[20:39:00] [Server thread/INFO]: 233 482 058
+[20:39:00] [Server thread/INFO]: 233 582 058
+[20:39:00] [Server thread/INFO]: 234 082 058
+[20:39:00] [Server thread/INFO]: 234 182 058
+[20:39:00] [Server thread/INFO]: 234 282 058
+[20:39:00] [Server thread/INFO]: 234 382 058
+[20:39:00] [Server thread/INFO]: 234 482 058
+[20:39:00] [Server thread/INFO]: 234 582 058
+[20:39:00] [Server thread/INFO]: 235 082 058
+[20:39:00] [Server thread/INFO]: 235 182 058
+[20:39:00] [Server thread/INFO]: 235 282 058
+[20:39:00] [Server thread/INFO]: 235 382 058
+[20:39:00] [Server thread/INFO]: 235 482 058
+[20:39:00] [Server thread/INFO]: 235 582 058
+[20:39:00] [Server thread/INFO]: 236 082 058
+[20:39:00] [Server thread/INFO]: 236 182 058
+[20:39:00] [Server thread/INFO]: 236 282 058
+[20:39:00] [Server thread/INFO]: 236 382 058
+[20:39:00] [Server thread/INFO]: 236 482 058
+[20:39:00] [Server thread/INFO]: 236 582 058
+[20:39:01] [Server thread/INFO]: 230 082 058
+[20:39:01] [Server thread/INFO]: 230 182 058
+[20:39:01] [Server thread/INFO]: 230 282 058
+[20:39:01] [Server thread/INFO]: 230 382 058
+[20:39:01] [Server thread/INFO]: 230 482 058
+[20:39:01] [Server thread/INFO]: 230 582 058
+[20:39:01] [Server thread/INFO]: 231 082 058
+[20:39:01] [Server thread/INFO]: 231 182 058
+[20:39:01] [Server thread/INFO]: 231 282 058
+[20:39:01] [Server thread/INFO]: 231 382 058
+[20:39:01] [Server thread/INFO]: 231 482 058
+[20:39:01] [Server thread/INFO]: 231 582 058
+[20:39:01] [Server thread/INFO]: 232 082 058
+[20:39:01] [Server thread/INFO]: 232 182 058
+[20:39:01] [Server thread/INFO]: 232 282 058
+[20:39:01] [Server thread/INFO]: 232 382 058
+[20:39:01] [Server thread/INFO]: 232 482 058
+[20:39:01] [Server thread/INFO]: 232 582 058
+[20:39:01] [Server thread/INFO]: 233 082 058
+[20:39:01] [Server thread/INFO]: 233 182 058
+[20:39:01] [Server thread/INFO]: 233 282 058
+[20:39:01] [Server thread/INFO]: 233 382 058
+[20:39:01] [Server thread/INFO]: 233 482 058
+[20:39:01] [Server thread/INFO]: 233 582 058
+[20:39:01] [Server thread/INFO]: 234 082 058
+[20:39:01] [Server thread/INFO]: 234 182 058
+[20:39:01] [Server thread/INFO]: 234 282 058
+[20:39:01] [Server thread/INFO]: 234 382 058
+[20:39:01] [Server thread/INFO]: 234 482 058
+[20:39:01] [Server thread/INFO]: 234 582 058
+[20:39:01] [Server thread/INFO]: 235 082 058
+[20:39:01] [Server thread/INFO]: 235 182 058
+[20:39:01] [Server thread/INFO]: 235 282 058
+[20:39:01] [Server thread/INFO]: 235 382 058
+[20:39:01] [Server thread/INFO]: 235 482 058
+[20:39:01] [Server thread/INFO]: 235 582 058
+[20:39:01] [Server thread/INFO]: 236 082 058
+[20:39:01] [Server thread/INFO]: 236 182 058
+[20:39:01] [Server thread/INFO]: 236 282 058
+[20:39:01] [Server thread/INFO]: 236 382 058
+[20:39:01] [Server thread/INFO]: 236 482 058
+[20:39:01] [Server thread/INFO]: 236 582 058
+[20:39:05] [Server thread/INFO]: 230 082 058
+[20:39:05] [Server thread/INFO]: 230 182 058
+[20:39:05] [Server thread/INFO]: 230 282 058
+[20:39:05] [Server thread/INFO]: 230 382 058
+[20:39:05] [Server thread/INFO]: 230 482 058
+[20:39:05] [Server thread/INFO]: 230 582 058
+[20:39:05] [Server thread/INFO]: 231 082 058
+[20:39:05] [Server thread/INFO]: 231 182 058
+[20:39:05] [Server thread/INFO]: 231 282 058
+[20:39:05] [Server thread/INFO]: 231 382 058
+[20:39:05] [Server thread/INFO]: 231 482 058
+[20:39:05] [Server thread/INFO]: 231 582 058
+[20:39:05] [Server thread/INFO]: 232 082 058
+[20:39:05] [Server thread/INFO]: 232 182 058
+[20:39:05] [Server thread/INFO]: 232 282 058
+[20:39:05] [Server thread/INFO]: 232 382 058
+[20:39:05] [Server thread/INFO]: 232 482 058
+[20:39:05] [Server thread/INFO]: 232 582 058
+[20:39:05] [Server thread/INFO]: 233 082 058
+[20:39:05] [Server thread/INFO]: 233 182 058
+[20:39:05] [Server thread/INFO]: 233 282 058
+[20:39:05] [Server thread/INFO]: 233 382 058
+[20:39:05] [Server thread/INFO]: 233 482 058
+[20:39:05] [Server thread/INFO]: 233 582 058
+[20:39:05] [Server thread/INFO]: 234 082 058
+[20:39:05] [Server thread/INFO]: 234 182 058
+[20:39:05] [Server thread/INFO]: 234 282 058
+[20:39:05] [Server thread/INFO]: 234 382 058
+[20:39:05] [Server thread/INFO]: 234 482 058
+[20:39:05] [Server thread/INFO]: 234 582 058
+[20:39:05] [Server thread/INFO]: 235 082 058
+[20:39:05] [Server thread/INFO]: 235 182 058
+[20:39:05] [Server thread/INFO]: 235 282 058
+[20:39:05] [Server thread/INFO]: 235 382 058
+[20:39:05] [Server thread/INFO]: 235 482 058
+[20:39:05] [Server thread/INFO]: 235 582 058
+[20:39:05] [Server thread/INFO]: 236 082 058
+[20:39:05] [Server thread/INFO]: 236 182 058
+[20:39:05] [Server thread/INFO]: 236 282 058
+[20:39:05] [Server thread/INFO]: 236 382 058
+[20:39:05] [Server thread/INFO]: 236 482 058
+[20:39:05] [Server thread/INFO]: 236 582 058
+[20:39:06] [Server thread/INFO]: 230 082 058
+[20:39:06] [Server thread/INFO]: 230 182 058
+[20:39:06] [Server thread/INFO]: 230 282 058
+[20:39:06] [Server thread/INFO]: 230 382 058
+[20:39:06] [Server thread/INFO]: 230 482 058
+[20:39:06] [Server thread/INFO]: 230 582 058
+[20:39:06] [Server thread/INFO]: 231 082 058
+[20:39:06] [Server thread/INFO]: 231 182 058
+[20:39:06] [Server thread/INFO]: 231 282 058
+[20:39:06] [Server thread/INFO]: 231 382 058
+[20:39:06] [Server thread/INFO]: 231 482 058
+[20:39:06] [Server thread/INFO]: 231 582 058
+[20:39:06] [Server thread/INFO]: 232 082 058
+[20:39:06] [Server thread/INFO]: 232 182 058
+[20:39:06] [Server thread/INFO]: 232 282 058
+[20:39:06] [Server thread/INFO]: 232 382 058
+[20:39:06] [Server thread/INFO]: 232 482 058
+[20:39:06] [Server thread/INFO]: 232 582 058
+[20:39:06] [Server thread/INFO]: 233 082 058
+[20:39:06] [Server thread/INFO]: 233 182 058
+[20:39:06] [Server thread/INFO]: 233 282 058
+[20:39:06] [Server thread/INFO]: 233 382 058
+[20:39:06] [Server thread/INFO]: 233 482 058
+[20:39:06] [Server thread/INFO]: 233 582 058
+[20:39:06] [Server thread/INFO]: 234 082 058
+[20:39:06] [Server thread/INFO]: 234 182 058
+[20:39:06] [Server thread/INFO]: 234 282 058
+[20:39:06] [Server thread/INFO]: 234 382 058
+[20:39:06] [Server thread/INFO]: 234 482 058
+[20:39:06] [Server thread/INFO]: 234 582 058
+[20:39:06] [Server thread/INFO]: 235 082 058
+[20:39:06] [Server thread/INFO]: 235 182 058
+[20:39:06] [Server thread/INFO]: 235 282 058
+[20:39:06] [Server thread/INFO]: 235 382 058
+[20:39:06] [Server thread/INFO]: 235 482 058
+[20:39:06] [Server thread/INFO]: 235 582 058
+[20:39:06] [Server thread/INFO]: 236 082 058
+[20:39:06] [Server thread/INFO]: 236 182 058
+[20:39:06] [Server thread/INFO]: 236 282 058
+[20:39:06] [Server thread/INFO]: 236 382 058
+[20:39:06] [Server thread/INFO]: 236 482 058
+[20:39:06] [Server thread/INFO]: 236 582 058
+[20:39:19] [Server thread/INFO]: Reloading your code...
+[20:39:19] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:39:19] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:39:19] [Paper Plugin Remapper Thread - 9/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:39:20] [Paper Plugin Remapper Thread - 9/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 230ms.
+[20:39:20] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:39:20] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:39:20] [Server thread/INFO]: Your code was successfully loaded!
+[20:39:20] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:39:20] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:39:55] [Server thread/INFO]: __Crafter__ issued server command: /buttonify
+[20:39:57] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 7ee50a47-e926-4f40-99eb-9b7b8de7dcc9
+[20:41:30] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 55a7e8a3-4fe9-42f8-a497-f17b91de6ee5
+[20:42:08] [Server thread/INFO]: Reloading your code...
+[20:42:08] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:42:08] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:42:08] [Paper Plugin Remapper Thread - 10/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:42:09] [Paper Plugin Remapper Thread - 10/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 191ms.
+[20:42:09] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:42:09] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:42:09] [Server thread/INFO]: Your code was successfully loaded!
+[20:42:09] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:42:09] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:43:11] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[20:43:11] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[20:43:18] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[20:43:18] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[20:43:22] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[20:43:22] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[20:44:07] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[20:44:07] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[20:44:09] [Server thread/INFO]: Reloading your code...
+[20:44:09] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:44:09] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:44:09] [Paper Plugin Remapper Thread - 11/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:44:09] [Paper Plugin Remapper Thread - 11/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 186ms.
+[20:44:09] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:44:09] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:44:09] [Server thread/INFO]: Your code was successfully loaded!
+[20:44:09] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:44:09] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:47:42] [Server thread/INFO]: __Crafter__ issued server command: /setblock 233 82 66 minecraft:oak_button[face=floor]
+[20:47:42] [Server thread/INFO]: [__Crafter__: Changed the block at 233, 82, 66]
+[20:51:46] [Server thread/INFO]: __Crafter__ issued server command: /setblock 233 82 66 minecraft:diamond_block
+[20:51:46] [Server thread/INFO]: [__Crafter__: Changed the block at 233, 82, 66]
+[20:54:31] [Server thread/INFO]: Stopping the server
+[20:54:31] [Server thread/INFO]: Stopping server
+[20:54:31] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:54:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.57
+[20:54:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:54:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:54:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:54:31] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.7.1
+[20:54:31] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[20:54:31] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.3
+[20:54:31] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[20:54:31] [Server thread/INFO]: Saving players
+[20:54:31] [Server thread/INFO]: __Crafter__ lost connection: Server closed
+[20:54:31] [Server thread/INFO]: __Crafter__ left the game
+[20:54:31] [Server thread/INFO]: Saving worlds
+[20:54:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:54:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saved 324 block chunks, 149 entity chunks, 0 poi chunks in world 'world' in 0,26s
+[20:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[20:54:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:54:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:54:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -39,6 +39,7 @@ public class ActivationEvents implements Listener {
                 return;
             }
             buttonMap.get(id).buttonPressed(event.getPlayer(), event.getClickedBlock());
+            event.setCancelled(true);
         }
     }
 
