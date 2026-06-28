@@ -1,293 +1,458 @@
-[10:31:06] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[10:31:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
-[10:31:07] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:31:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[10:31:09] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[11:39:00] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.2+12-54; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[11:39:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[11:39:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:39:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[11:39:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - PlugManX (3.0.3)
-[10:31:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[11:39:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - AxiomPaper (5.0.4+1.21.1), FastAsyncWorldEdit (2.15.2+e9ed0d1), LuckPerms (5.5.57), MCCodeCamp (1.0), Multiverse-Core (5.7.1), PlaceholderAPI (2.12.2)
-[10:31:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:31:15] [ServerMain/INFO]: Loaded 1290 recipes
-[10:31:16] [ServerMain/INFO]: Loaded 1399 advancements
-[10:31:16] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[10:31:16] [Server thread/INFO]: Loading properties
-[10:31:16] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[10:31:17] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:31:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:31:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:31:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
-[10:31:17] [Server thread/INFO]: Default game type: SURVIVAL
-[10:31:17] [Server thread/INFO]: Generating keypair
-[10:31:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:31:17] [Server thread/INFO]: Using default channel type
-[10:31:17] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:31:17] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:31:18] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
-[10:31:18] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
-[10:31:18] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
-[10:31:18] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
-[10:31:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
-[10:31:18] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:31:18] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
-[10:31:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35f65e2e]
-[10:31:19] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v5.0.4+1.21.1
-[10:31:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:31:19] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
-[10:31:20] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:31:20] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[10:31:20] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[10:31:20] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[10:31:20] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
-[10:31:20] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[10:31:20] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
-[10:31:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
-[10:31:20] [Server thread/INFO]:         __    
-[10:31:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
-[10:31:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:31:20] [Server thread/INFO]: 
-[10:31:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:31:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:31:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:31:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1444ms)
-[10:31:21] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
-[10:31:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[10:31:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[10:31:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:31:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[10:31:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
-[10:31:24] [Server thread/INFO]: Preparing level "world"
-[10:31:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:31:25] [Server thread/INFO]: Time elapsed: 915 ms
-[10:31:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:31:25] [Server thread/INFO]: Time elapsed: 125 ms
-[10:31:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:31:25] [Server thread/INFO]: Time elapsed: 53 ms
-[10:31:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
-[10:31:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[10:31:25] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
-[10:31:26] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world temp1: Failure{reason=WORLD_FOLDER_INVALID}
-[10:31:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
-[10:31:26] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[10:31:26] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[10:31:26] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[10:31:26] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
-[10:31:26] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
-[10:31:26] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v5.0.4+1.21.1
-[10:31:27] [Server thread/INFO]: [AxiomPaper] LuckPerms integration enabled
-[10:31:27] [Server thread/INFO]: [spark] Starting background profiler...
-[10:31:27] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[10:31:27] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[10:31:27] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[10:31:27] [Server thread/INFO]: Done preparing level "world" (3.868s)
-[10:31:27] [Server thread/INFO]: Starting remote control listener
-[10:31:27] [Server thread/INFO]: Thread RCON Listener started
-[10:31:27] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[10:31:27] [Server thread/INFO]: Running delayed init tasks
-[10:31:27] [Server thread/INFO]: Done (22.233s)! For help, type "help"
-[10:31:27] [Server thread/INFO]: Timings Reset
-[10:31:30] [User Authenticator #0/INFO]: UUID of player __Crafter__ is 4984999a-09e7-4d2d-aa81-e0b89d59382a
-[10:31:31] [Server thread/INFO]: __Crafter__ joined the game
-[10:31:31] [luckperms-command-executor/INFO]: [LP] __crafter__ had their existing parent groups cleared, and now only inherits student in context global.
-[10:31:31] [Server thread/INFO]: __Crafter__[/127.0.0.1:56217] logged in with entity id 15 at ([world]1266.1247199894854, 180.96143591922882, 907.3192520469448)
-[10:31:32] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
-[10:31:32] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
-[10:31:37] [Server thread/INFO]: Villager Villager['Villager'/101, uuid='48d176f0-aa2e-42b3-a87f-061c4015bb4d', l='ServerLevel[world]', x=1119.28, y=-238.61, z=840.37, cpos=[69, 52], tl=86, v=true] died, message: 'Villager fell out of the world'
-[10:31:37] [Server thread/INFO]: Villager Villager['Villager'/104, uuid='18caf420-2a73-4fce-b716-6b60d39ddf94', l='ServerLevel[world]', x=1119.37, y=-238.61, z=847.72, cpos=[69, 52], tl=86, v=true] died, message: 'Villager fell out of the world'
-[10:31:50] [Server thread/INFO]: Villager Villager['Nitwit'/170, uuid='9242219f-0f8c-427b-9e21-57229b8b21c3', l='ServerLevel[world]', x=590.72, y=-245.08, z=378.63, cpos=[36, 23], tl=88, v=true] died, message: 'Nitwit fell out of the world'
-[10:31:50] [Server thread/INFO]: Villager Villager['Villager'/172, uuid='76cff900-1b32-4f7e-99b7-8b29a96ecf9c', l='ServerLevel[world]', x=591.37, y=-245.08, z=383.07, cpos=[36, 23], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:32:11] [Server thread/INFO]: Villager Villager['Villager'/270, uuid='7f0e5160-0c55-434b-9862-6593365d4c5e', l='ServerLevel[world]', x=1183.28, y=-245.08, z=88.37, cpos=[73, 5], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:32:11] [Server thread/INFO]: Villager Villager['Villager'/272, uuid='a03314da-b820-4691-98ad-6369ee85f525', l='ServerLevel[world]', x=1183.72, y=-245.08, z=95.63, cpos=[73, 5], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:32:43] [Server thread/WARN]: __Crafter__ moved too quickly! 2.8303545831913652,0.0,-33.47542879530903
-[10:33:15] [Server thread/WARN]: __Crafter__ moved too quickly! -14.510779332739276,0.0,-0.01472551989562021
-[10:33:18] [Server thread/WARN]: __Crafter__ moved too quickly! 11.39556358345692,0.0,10.487920369772496
-[10:34:19] [Server thread/INFO]: Villager Villager['Villager'/765, uuid='3c45767a-1704-453a-b50f-24d7a2f77c88', l='ServerLevel[world]', x=284.10, y=-245.08, z=1154.22, cpos=[17, 72], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:34:19] [Server thread/INFO]: Villager Villager['Villager'/766, uuid='9aec4cdb-0980-482f-8c5b-3baf854da4d7', l='ServerLevel[world]', x=286.63, y=-245.08, z=1153.28, cpos=[17, 72], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:34:46] [Server thread/INFO]: Villager Villager['Villager'/751, uuid='7966049a-1110-488f-94c6-ed5e6cec0fb2', l='ServerLevel[world]', x=241.28, y=-245.08, z=913.37, cpos=[15, 57], tl=88, v=true] died, message: 'Villager fell out of the world'
-[10:34:46] [Server thread/INFO]: Villager Villager['Nitwit'/752, uuid='49e0c9c1-3609-4a7a-ab83-a8c30d5f0204', l='ServerLevel[world]', x=241.72, y=-245.08, z=920.63, cpos=[15, 57], tl=88, v=true] died, message: 'Nitwit fell out of the world'
-[10:36:15] [Server thread/WARN]: __Crafter__ moved too quickly! 7.551138616728849,-3.2203936066932215,-33.40885947081762
-[10:38:50] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:38:59] [Server thread/INFO]: __Crafter__ issued server command: /gamerule commandModificationBlockLimit 999999999
-[10:38:59] [Server thread/INFO]: [__Crafter__: Gamerule commandModificationBlockLimit is now set to: 999999999]
-[10:39:00] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:00] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 760, 0, 652 and 860, 100, 752]
-[10:39:04] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:04] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 768, 0, 600 and 868, 100, 700]
-[10:39:20] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:39:20] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 720, 0, 528 and 920, 100, 728]
-[10:39:35] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:35] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 696 and 852, 100, 796]
-[10:39:38] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:38] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 736 and 852, 100, 836]
-[10:39:39] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:39] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 748, 0, 760 and 848, 100, 860]
-[10:39:40] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:40] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 740, 0, 788 and 840, 100, 888]
-[10:39:41] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:41] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 744, 0, 812 and 844, 100, 912]
-[10:39:43] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:43] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 748, 0, 836 and 848, 100, 936]
-[10:39:43] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:43] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 852 and 852, 100, 952]
-[10:39:44] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:44] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 756, 0, 872 and 856, 100, 972]
-[10:39:45] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:45] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 756, 0, 888 and 856, 100, 988]
-[10:39:46] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:46] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 908 and 852, 100, 1008]
-[10:39:47] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:47] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 924 and 852, 100, 1024]
-[10:39:48] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:48] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 748, 0, 940 and 848, 100, 1040]
-[10:39:52] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:39:52] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 752, 0, 948 and 852, 100, 1048]
-[10:40:04] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:04] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 712, 0, 944 and 812, 100, 1044]
-[10:40:05] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:05] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 692, 0, 940 and 792, 100, 1040]
-[10:40:06] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:06] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 668, 0, 944 and 768, 100, 1044]
-[10:40:07] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:07] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 648, 0, 948 and 748, 100, 1048]
-[10:40:08] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:08] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 628, 0, 952 and 728, 100, 1052]
-[10:40:09] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:09] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 608, 0, 952 and 708, 100, 1052]
-[10:40:10] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-50 0 ~-50 ~50 100 ~50 minecraft:taiga
-[10:40:10] [Server thread/INFO]: [__Crafter__: 17576 biome entry/entries set between 600, 0, 952 and 700, 100, 1052]
-[10:40:11] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:11] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 532, 0, 900 and 732, 100, 1100]
-[10:40:13] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:13] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 516, 0, 864 and 716, 100, 1064]
-[10:40:15] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:15] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 500, 0, 832 and 700, 100, 1032]
-[10:40:17] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:17] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 476, 0, 796 and 676, 100, 996]
-[10:40:19] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:19] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 492, 0, 764 and 692, 100, 964]
-[10:40:22] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:22] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 580, 0, 704 and 780, 100, 904]
-[10:40:24] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:24] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 664, 0, 708 and 864, 100, 908]
-[10:40:29] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:29] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 716, 0, 692 and 916, 100, 892]
-[10:40:32] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:32] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 704, 0, 764 and 904, 100, 964]
-[10:40:35] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:35] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 636, 0, 788 and 836, 100, 988]
-[10:40:37] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:37] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 576, 0, 836 and 776, 100, 1036]
-[10:40:39] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:39] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 608, 0, 880 and 808, 100, 1080]
-[10:40:41] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:41] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 664, 0, 872 and 864, 100, 1072]
-[10:40:45] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:45] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 720, 0, 860 and 920, 100, 1060]
-[10:40:49] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:49] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 732, 0, 884 and 932, 100, 1084]
-[10:40:53] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:53] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 640, 0, 896 and 840, 100, 1096]
-[10:40:54] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:54] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 584, 0, 932 and 784, 100, 1132]
-[10:40:55] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:55] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 556, 0, 972 and 756, 100, 1172]
-[10:40:56] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:56] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 528, 0, 1000 and 728, 100, 1200]
-[10:40:57] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:57] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 504, 0, 1028 and 704, 100, 1228]
-[10:40:58] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:58] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 484, 0, 1052 and 684, 100, 1252]
-[10:40:59] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:40:59] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 456, 0, 1080 and 656, 100, 1280]
-[10:41:00] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:00] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 428, 0, 1112 and 628, 100, 1312]
-[10:41:01] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:01] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 408, 0, 1156 and 608, 100, 1356]
-[10:41:02] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:02] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 384, 0, 1200 and 584, 100, 1400]
-[10:41:05] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:05] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 372, 0, 1148 and 572, 100, 1348]
-[10:41:06] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:06] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 372, 0, 1076 and 572, 100, 1276]
-[10:41:07] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:07] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 352, 0, 1048 and 552, 100, 1248]
-[10:41:07] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:07] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 332, 0, 1024 and 532, 100, 1224]
-[10:41:09] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:09] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 376, 0, 984 and 576, 100, 1184]
-[10:41:11] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:11] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 404, 0, 944 and 604, 100, 1144]
-[10:41:12] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:12] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 408, 0, 908 and 608, 100, 1108]
-[10:41:12] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:12] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 408, 0, 876 and 608, 100, 1076]
-[10:41:13] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:13] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 404, 0, 844 and 604, 100, 1044]
-[10:41:14] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:14] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 396, 0, 808 and 596, 100, 1008]
-[10:41:15] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:15] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 396, 0, 772 and 596, 100, 972]
-[10:41:16] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:16] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 392, 0, 740 and 592, 100, 940]
-[10:41:18] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:18] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 448, 0, 712 and 648, 100, 912]
-[10:41:20] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:20] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 484, 0, 700 and 684, 100, 900]
-[10:41:21] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:21] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 504, 0, 704 and 704, 100, 904]
-[10:41:22] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:22] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 528, 0, 708 and 728, 100, 908]
-[10:41:24] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:24] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 548, 0, 728 and 748, 100, 928]
-[10:41:25] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:25] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 572, 0, 736 and 772, 100, 936]
-[10:41:26] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:26] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 608, 0, 728 and 808, 100, 928]
-[10:41:28] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:28] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 620, 0, 700 and 820, 100, 900]
-[10:41:34] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:34] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 600, 0, 688 and 800, 100, 888]
-[10:41:38] [Server thread/INFO]: __Crafter__ issued server command: /fillbiome ~-100 0 ~-100 ~100 100 ~100 minecraft:taiga
-[10:41:38] [Server thread/INFO]: [__Crafter__: 67626 biome entry/entries set between 596, 0, 672 and 796, 100, 872]
-[10:41:52] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK
-[10:41:52] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21.1-133-3cb8529 (MC: 1.21.1) and contains features of future minecraft versions which do not exist in 1.21.1-133-3cb8529 (MC: 1.21.1) hence the tree type PALE_OAK is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
-[10:41:52] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK_CREAKING
-[10:41:52] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21.1-133-3cb8529 (MC: 1.21.1) and contains features of future minecraft versions which do not exist in 1.21.1-133-3cb8529 (MC: 1.21.1) hence the tree type PALE_OAK_CREAKING is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
-[10:41:59] [Server thread/INFO]: __Crafter__ issued server command: //drain 100
-[10:41:59] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightStarlightRelighterFactory as relighter factory.
-[10:42:08] [Server thread/INFO]: Stopping the server
-[10:42:08] [Server thread/INFO]: Stopping server
-[10:42:08] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v5.0.4+1.21.1
-[10:42:08] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.2+e9ed0d1
-[10:42:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[10:42:08] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.57
-[10:42:08] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[10:42:08] [Server thread/INFO]: [LuckPerms] Closing storage...
-[10:42:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[10:42:08] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
-[10:42:08] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.7.1
-[10:42:08] [Server thread/INFO]: [Multiverse-Core] - Disabled
-[10:42:08] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.3
-[10:42:08] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
-[10:42:08] [Server thread/INFO]: Saving players
-[10:42:08] [Server thread/INFO]: __Crafter__ lost connection: Server closed
-[10:42:08] [Server thread/INFO]: __Crafter__ left the game
-[10:42:08] [Server thread/INFO]: Saving worlds
-[10:42:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:42:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:42:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:42:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Saved 3996 block chunks, 3284 entity chunks, 0 poi chunks in world 'world' in 5,02s
-[10:42:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
-[10:42:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:42:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
-[10:42:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:42:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:42:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:42:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:39:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[11:39:09] [ServerMain/INFO]: Loaded 1290 recipes
+[11:39:09] [ServerMain/INFO]: Loaded 1399 advancements
+[11:39:09] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[11:39:09] [Server thread/INFO]: Loading properties
+[11:39:09] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[11:39:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:39:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:39:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:39:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[11:39:10] [Server thread/INFO]: Default game type: SURVIVAL
+[11:39:10] [Server thread/INFO]: Generating keypair
+[11:39:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:39:10] [Server thread/INFO]: Using default channel type
+[11:39:10] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:39:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:39:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.2
+[11:39:11] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.3
+[11:39:11] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.7.1
+[11:39:11] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[11:39:11] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.57
+[11:39:11] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:39:11] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.2+e9ed0d1
+[11:39:12] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@42cebc29]
+[11:39:12] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v5.0.4+1.21.1
+[11:39:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:39:12] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.3
+[11:39:12] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:39:12] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[11:39:12] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[11:39:12] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[11:39:12] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[11:39:12] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[11:39:12] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[11:39:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.57
+[11:39:13] [Server thread/INFO]:         __    
+[11:39:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.57
+[11:39:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:39:13] [Server thread/INFO]: 
+[11:39:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:39:13] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:39:13] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:39:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 991ms)
+[11:39:13] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.2+e9ed0d1
+[11:39:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[11:39:13] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[11:39:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:39:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:39:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_R1.PaperweightFaweAdapter as the Bukkit adapter
+[11:39:15] [Server thread/INFO]: Preparing level "world"
+[11:39:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:39:16] [Server thread/INFO]: Time elapsed: 782 ms
+[11:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:39:16] [Server thread/INFO]: Time elapsed: 70 ms
+[11:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:39:16] [Server thread/INFO]: Time elapsed: 41 ms
+[11:39:16] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.2
+[11:39:16] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:39:16] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.7.1
+[11:39:17] [Server thread/ERROR]: [Multiverse-Core] Failed to autoload world temp1: Failure{reason=WORLD_FOLDER_INVALID}
+[11:39:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.7.1]
+[11:39:17] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[11:39:17] [Server thread/INFO]: [Multiverse-Core] Version 5.7.1 (API v5.7) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[11:39:17] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[11:39:17] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[11:39:17] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[11:39:17] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v5.0.4+1.21.1
+[11:39:18] [Server thread/INFO]: [AxiomPaper] LuckPerms integration enabled
+[11:39:18] [Server thread/INFO]: [spark] Starting background profiler...
+[11:39:18] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:39:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:39:18] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:39:18] [Server thread/INFO]: Done preparing level "world" (2.981s)
+[11:39:18] [Server thread/INFO]: Starting remote control listener
+[11:39:18] [Server thread/INFO]: Thread RCON Listener started
+[11:39:18] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[11:39:18] [Server thread/INFO]: Running delayed init tasks
+[11:39:18] [Server thread/INFO]: Done (18.906s)! For help, type "help"
+[11:39:18] [Server thread/INFO]: Timings Reset
+[11:43:58] [User Authenticator #0/INFO]: UUID of player __Crafter__ is 4984999a-09e7-4d2d-aa81-e0b89d59382a
+[11:43:58] [Server thread/INFO]: __Crafter__ joined the game
+[11:43:58] [luckperms-command-executor/INFO]: [LP] __crafter__ had their existing parent groups cleared, and now only inherits student in context global.
+[11:43:58] [Server thread/INFO]: __Crafter__[/127.0.0.1:52352] logged in with entity id 15 at ([world]846.8102100289206, 162.3652451097054, 721.331914778269)
+[11:44:01] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[11:44:01] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[12:31:09] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK
+[12:31:09] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21.1-133-3cb8529 (MC: 1.21.1) and contains features of future minecraft versions which do not exist in 1.21.1-133-3cb8529 (MC: 1.21.1) hence the tree type PALE_OAK is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[12:31:09] [Server thread/INFO]: No TreeType mapping for TreeGenerator.TreeType.PALE_OAK_CREAKING
+[12:31:09] [Server thread/INFO]: The above message is displayed because your FAWE version is newer than 1.21.1-133-3cb8529 (MC: 1.21.1) and contains features of future minecraft versions which do not exist in 1.21.1-133-3cb8529 (MC: 1.21.1) hence the tree type PALE_OAK_CREAKING is not available. This is not an error. This version of FAWE will work on your version of  Minecraft. This is an informative message only.
+[12:48:26] [Server thread/INFO]: Reloading your code...
+[12:48:26] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[12:48:26] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[12:48:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[12:48:28] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 968ms.
+[12:48:28] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[12:48:28] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[12:48:28] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[12:48:28] [Server thread/INFO]: Your code was successfully loaded!
+[12:48:28] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[12:48:36] [Server thread/INFO]: __Crafter__ issued server command: /createinput
+[12:48:47] [Server thread/INFO]: __Crafter__ issued server command: /greet
+[12:49:38] [Server thread/INFO]: Reloading your code...
+[12:49:38] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[12:49:38] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[12:49:38] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[12:49:39] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 381ms.
+[12:49:39] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[12:49:39] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[12:49:39] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[12:49:39] [Server thread/INFO]: Your code was successfully loaded!
+[12:49:39] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[12:49:41] [Server thread/INFO]: __Crafter__ issued server command: /createinput
+[12:49:45] [Server thread/INFO]: __Crafter__ issued server command: /greet
+[12:49:49] [Server thread/INFO]: __Crafter__ issued server command: /greet test
+[12:50:47] [Server thread/INFO]: Reloading your code...
+[12:50:47] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[12:50:47] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[12:50:47] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[12:50:47] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 326ms.
+[12:50:47] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[12:50:47] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[12:50:47] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[12:50:47] [Server thread/INFO]: Your code was successfully loaded!
+[12:50:47] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[12:50:50] [Server thread/INFO]: __Crafter__ issued server command: /greet
+[12:50:52] [Server thread/INFO]: __Crafter__ issued server command: /greet
+[14:09:07] [Server thread/INFO]: Reloading your code...
+[14:09:07] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:09:07] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:09:07] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:09:08] [Paper Plugin Remapper Thread - 5/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 320ms.
+[14:09:08] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:09:08] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:09:08] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:09:08] [Server thread/INFO]: Your code was successfully loaded!
+[14:09:08] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:09:28] [Server thread/INFO]: __Crafter__ issued server command: /createinput button myFirstButton
+[14:09:31] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 2f4cc577-89aa-4525-8310-2f8d75261029
+[14:10:36] [Server thread/INFO]: Reloading your code...
+[14:10:36] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:10:36] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:10:37] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:10:37] [Paper Plugin Remapper Thread - 6/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 245ms.
+[14:10:37] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:10:37] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:10:37] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:10:37] [Server thread/INFO]: Your code was successfully loaded!
+[14:10:37] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:11:00] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[14:11:00] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[14:11:04] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[14:11:04] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[14:15:52] [Server thread/INFO]: __Crafter__ issued server command: /createinput button
+[14:15:53] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 693b9176-5862-44d2-8f2a-53dfb90c6cfe
+[14:21:15] [Server thread/INFO]: Reloading your code...
+[14:21:15] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:21:15] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:21:15] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:21:15] [Paper Plugin Remapper Thread - 7/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 253ms.
+[14:21:15] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:21:15] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:21:15] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:21:15] [Server thread/INFO]: Your code was successfully loaded!
+[14:21:15] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:35:29] [Server thread/INFO]: Reloading your code...
+[14:35:29] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:35:29] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:35:29] [Paper Plugin Remapper Thread - 8/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:35:29] [Paper Plugin Remapper Thread - 8/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 193ms.
+[14:35:29] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:35:29] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:35:29] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:35:29] [Server thread/INFO]: Your code was successfully loaded!
+[14:35:29] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:35:42] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[14:35:42] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[14:35:45] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[14:35:45] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[14:37:32] [Server thread/INFO]: Reloading your code...
+[14:37:32] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:37:32] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:37:32] [Paper Plugin Remapper Thread - 9/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:37:32] [Paper Plugin Remapper Thread - 9/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 218ms.
+[14:37:32] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:37:32] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:37:32] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:37:32] [Server thread/INFO]: Your code was successfully loaded!
+[14:37:32] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:37:55] [Server thread/INFO]: __Crafter__ issued server command: /createinput
+[14:37:58] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 8b65f27c-0697-4595-b6ec-f486a86a2a4a
+[14:38:09] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 48d6b5b8-b27b-483e-ba50-0c61e3f1b0ff
+[14:38:23] [Server thread/INFO]: __Crafter__ issued server command: /createinput button myFourthButton
+[14:40:00] [Server thread/INFO]: Reloading your code...
+[14:40:00] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:40:00] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:40:00] [Paper Plugin Remapper Thread - 10/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:40:00] [Paper Plugin Remapper Thread - 10/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 203ms.
+[14:40:00] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:40:00] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:40:00] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:40:00] [Server thread/INFO]: Your code was successfully loaded!
+[14:40:00] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:41:39] [Server thread/INFO]: Reloading your code...
+[14:41:39] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:41:39] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:41:39] [Paper Plugin Remapper Thread - 11/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:41:40] [Paper Plugin Remapper Thread - 11/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 205ms.
+[14:41:40] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:41:40] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:41:40] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:41:40] [Server thread/INFO]: Your code was successfully loaded!
+[14:41:40] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:41:49] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback e7356d60-7cbf-4180-bd80-476963ded4bd
+[14:41:56] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 684d0773-ee79-4155-a404-196f5d3d0bb1
+[14:42:00] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 8ae3ff8c-c397-4391-9498-9a3e03c38832
+[14:42:07] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 4bc81358-b1e9-4e65-84b9-58b130fce8b8
+[14:59:22] [Server thread/INFO]: Reloading your code...
+[14:59:22] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[14:59:22] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[14:59:22] [Paper Plugin Remapper Thread - 12/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[14:59:22] [Paper Plugin Remapper Thread - 12/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 312ms.
+[14:59:22] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[14:59:22] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[14:59:22] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[14:59:22] [Server thread/INFO]: Your code was successfully loaded!
+[14:59:22] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[14:59:31] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[14:59:31] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[14:59:34] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[14:59:34] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[15:01:09] [Server thread/INFO]: Reloading your code...
+[15:01:09] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[15:01:09] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[15:01:09] [Paper Plugin Remapper Thread - 13/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[15:01:09] [Paper Plugin Remapper Thread - 13/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 202ms.
+[15:01:09] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[15:01:09] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[15:01:09] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[15:01:09] [Server thread/INFO]: Your code was successfully loaded!
+[15:01:09] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[15:01:22] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[15:01:22] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[15:01:59] [Server thread/INFO]: __Crafter__ issued server command: /gamemode creative
+[15:01:59] [Server thread/INFO]: [__Crafter__: Set own game mode to Creative Mode]
+[15:02:00] [Server thread/INFO]: Reloading your code...
+[15:02:00] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[15:02:00] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[15:02:00] [Paper Plugin Remapper Thread - 14/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[15:02:00] [Paper Plugin Remapper Thread - 14/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 212ms.
+[15:02:00] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[15:02:00] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[15:02:00] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[15:02:00] [Server thread/INFO]: Your code was successfully loaded!
+[15:02:00] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[15:02:06] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 3f2f951d-2f87-493c-be92-a8f37a0de71b
+[15:02:07] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[15:02:07] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[15:02:47] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 898f3787-e92e-437f-894f-25946d3137fe
+[15:02:54] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback dd02854c-4913-465f-94f9-c111c5f12812
+[15:04:53] [Server thread/INFO]: Reloading your code...
+[15:04:53] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[15:04:53] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[15:04:53] [Paper Plugin Remapper Thread - 15/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[15:04:53] [Paper Plugin Remapper Thread - 15/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 208ms.
+[15:04:53] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[15:04:53] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[15:04:53] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[15:04:53] [Server thread/INFO]: Your code was successfully loaded!
+[15:04:53] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[15:05:05] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 9b92a4d5-1868-42f8-9975-1d3568d1a36c
+[15:57:19] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 6fc55854-fc05-45f4-a868-efc32162650b
+[15:57:20] [Server thread/INFO]: __Crafter__ issued server command: /gamemode survival
+[15:57:20] [Server thread/INFO]: [__Crafter__: Set own game mode to Survival Mode]
+[15:57:25] [Server thread/INFO]: __Crafter__ issued server command: /setblock 869 78 397 stone
+[15:57:25] [Server thread/INFO]: [__Crafter__: Changed the block at 869, 78, 397]
+[17:31:50] [Server thread/INFO]: __Crafter__ issued server command: /createinput
+[17:31:51] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback a4ff2911-31e4-4925-b776-d2ec0f257375
+[17:31:58] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 0b7d38d6-aebd-474a-9d6d-087ccf1f822b
+[17:32:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2517ms or 50 ticks behind
+[17:33:50] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback bab6378c-4632-4e40-a034-04ec840c20fc
+[17:38:59] [Server thread/INFO]: Reloading your code...
+[17:38:59] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:38:59] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:38:59] [Paper Plugin Remapper Thread - 16/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:38:59] [Paper Plugin Remapper Thread - 16/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 322ms.
+[17:38:59] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:38:59] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:38:59] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:38:59] [Server thread/INFO]: Your code was successfully loaded!
+[17:38:59] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:39:36] [Server thread/INFO]: Reloading your code...
+[17:39:36] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:39:36] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:39:36] [Paper Plugin Remapper Thread - 17/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:39:37] [Paper Plugin Remapper Thread - 17/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 204ms.
+[17:39:37] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:39:37] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:39:37] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:39:37] [Server thread/INFO]: Your code was successfully loaded!
+[17:39:37] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:46:39] [Server thread/INFO]: Reloading your code...
+[17:46:39] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:46:39] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:46:39] [Paper Plugin Remapper Thread - 18/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:46:39] [Paper Plugin Remapper Thread - 18/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 206ms.
+[17:46:39] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:46:39] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:46:39] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:46:39] [Server thread/INFO]: Your code was successfully loaded!
+[17:46:39] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:48:25] [Server thread/INFO]: Reloading your code...
+[17:48:25] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:48:25] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:48:25] [Paper Plugin Remapper Thread - 19/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:48:25] [Paper Plugin Remapper Thread - 19/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 192ms.
+[17:48:25] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:48:25] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:48:25] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:48:25] [Server thread/INFO]: Your code was successfully loaded!
+[17:48:25] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:51:05] [Server thread/INFO]: Reloading your code...
+[17:51:05] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:51:05] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:51:05] [Paper Plugin Remapper Thread - 20/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:51:05] [Paper Plugin Remapper Thread - 20/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 209ms.
+[17:51:05] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:51:05] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:51:05] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:51:05] [Server thread/INFO]: Your code was successfully loaded!
+[17:51:05] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:51:30] [Server thread/INFO]: Reloading your code...
+[17:51:30] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:51:30] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:51:30] [Paper Plugin Remapper Thread - 21/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:51:31] [Paper Plugin Remapper Thread - 21/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 182ms.
+[17:51:31] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:51:31] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:51:31] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:51:31] [Server thread/INFO]: Your code was successfully loaded!
+[17:51:31] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:52:18] [Server thread/INFO]: Reloading your code...
+[17:52:18] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:52:18] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:52:19] [Paper Plugin Remapper Thread - 22/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:52:19] [Paper Plugin Remapper Thread - 22/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 202ms.
+[17:52:19] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:52:19] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:52:19] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:52:19] [Server thread/INFO]: Your code was successfully loaded!
+[17:52:19] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[17:54:14] [Server thread/INFO]: Reloading your code...
+[17:54:14] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[17:54:14] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[17:54:15] [Paper Plugin Remapper Thread - 23/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[17:54:15] [Paper Plugin Remapper Thread - 23/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 199ms.
+[17:54:15] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[17:54:15] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[17:54:15] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[17:54:15] [Server thread/INFO]: Your code was successfully loaded!
+[17:54:15] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[18:03:07] [Server thread/INFO]: Reloading your code...
+[18:03:07] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[18:03:07] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[18:03:07] [Paper Plugin Remapper Thread - 24/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[18:03:07] [Paper Plugin Remapper Thread - 24/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 191ms.
+[18:03:07] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[18:03:07] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[18:03:07] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[18:03:07] [Server thread/INFO]: Your code was successfully loaded!
+[18:03:07] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[18:03:24] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 927636ae-99fa-47ed-858f-498ff2e2e3d3
+[18:15:58] [Server thread/INFO]: Reloading your code...
+[18:15:58] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[18:15:58] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[18:15:58] [Paper Plugin Remapper Thread - 25/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[18:15:58] [Paper Plugin Remapper Thread - 25/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 313ms.
+[18:15:58] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[18:15:58] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[18:15:58] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[18:15:58] [Server thread/INFO]: Your code was successfully loaded!
+[18:15:58] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[18:16:08] [Server thread/INFO]: __Crafter__ issued server command: /createinput button mySecondButton
+[18:16:28] [Server thread/INFO]: __Crafter__ issued server command: /setblock 869 78 394 minecraft:stone_button[face=floor]
+[18:16:28] [Server thread/INFO]: [__Crafter__: Changed the block at 869, 78, 394]
+[18:16:45] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 450e595a-a98a-4927-839a-712aaa84c311
+[19:48:36] [Server thread/INFO]: Reloading your code...
+[19:48:36] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[19:48:36] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[19:48:36] [Paper Plugin Remapper Thread - 26/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[19:48:36] [Paper Plugin Remapper Thread - 26/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 342ms.
+[19:48:36] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[19:48:36] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[19:48:36] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[19:48:36] [Server thread/INFO]: Your code was successfully loaded!
+[19:48:36] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[19:50:55] [Server thread/INFO]: Reloading your code...
+[19:50:55] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[19:50:55] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[19:50:55] [Paper Plugin Remapper Thread - 27/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[19:50:55] [Paper Plugin Remapper Thread - 27/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 224ms.
+[19:50:55] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[19:50:55] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[19:50:55] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[19:50:55] [Server thread/INFO]: Your code was successfully loaded!
+[19:50:55] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[19:51:47] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback d585a2f7-0e05-4795-b7b9-6e5951470675
+[19:51:58] [Server thread/INFO]: __Crafter__ issued server command: /createinput button myFirstButton
+[19:52:22] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 6eb303e8-8eb2-4a4b-9980-b9598419eb2e
+[19:52:59] [Server thread/INFO]: Reloading your code...
+[19:52:59] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[19:52:59] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[19:52:59] [Paper Plugin Remapper Thread - 28/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[19:52:59] [Paper Plugin Remapper Thread - 28/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 193ms.
+[19:52:59] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[19:52:59] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[19:52:59] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[19:52:59] [Server thread/INFO]: Your code was successfully loaded!
+[19:52:59] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:00:25] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 6d646025-60a2-4ebe-a126-8a95c8ab06c3
+[20:09:16] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 8213656c-cbe7-407d-9507-fecb21a59b24
+[20:09:44] [Server thread/INFO]: __Crafter__ has made the advancement [Who is Cutting Onions?]
+[20:11:09] [Server thread/INFO]: __Crafter__ issued server command: /createinput
+[20:11:11] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 1f954ab1-19c8-4d71-aa7a-064a866a37c0
+[20:11:15] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 20a218c0-e42e-47cf-b2b2-8a81544fc631
+[20:11:21] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback 342bf39d-89d7-4ec5-942b-b732fc8fc89a
+[20:11:28] [Server thread/INFO]: __Crafter__ issued server command: /createinput button explosionButton
+[20:11:42] [Server thread/INFO]: Reloading your code...
+[20:11:42] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:11:42] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:11:42] [Paper Plugin Remapper Thread - 29/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:11:42] [Paper Plugin Remapper Thread - 29/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 280ms.
+[20:11:42] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:11:42] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:11:42] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:11:42] [Server thread/INFO]: Your code was successfully loaded!
+[20:11:42] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:12:02] [Server thread/INFO]: Reloading your code...
+[20:12:02] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:12:02] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: MCCodeCamp
+[20:12:02] [Paper Plugin Remapper Thread - 30/INFO]: [PluginRemapper] Remapping plugin 'plugins\MCCodeCamp-1.0.jar'...
+[20:12:03] [Paper Plugin Remapper Thread - 30/INFO]: [PluginRemapper] Done remapping plugin 'plugins\MCCodeCamp-1.0.jar' in 202ms.
+[20:12:03] [Server thread/INFO]: [MCCodeCamp] Loading server plugin MCCodeCamp v1.0
+[20:12:03] [Server thread/INFO]: [MCCodeCamp] Enabling MCCodeCamp v1.0
+[20:12:03] [Server thread/INFO]: [MCCodeCamp] Started reload endpoint for quick reloading
+[20:12:03] [Server thread/INFO]: Your code was successfully loaded!
+[20:12:03] [Server thread/INFO]: [PlugMan] MCCodeCamp has been reloaded.
+[20:12:21] [Server thread/INFO]: __Crafter__ issued server command: /setblock 880 78 393 minecraft:oak_button[face=floor]
+[20:12:21] [Server thread/INFO]: [__Crafter__: Changed the block at 880, 78, 393]
+[20:14:17] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback cfad59e0-3f7d-4b0f-b77c-59de27c29692
+[20:14:35] [Server thread/INFO]: __Crafter__ has made the advancement [Monster Hunter]

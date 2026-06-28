@@ -1,9 +1,13 @@
 package me.simoncrafter.mCCodeCamp.lib;
 
 import me.simoncrafter.mCCodeCamp.MCCodeCamp;
+import me.simoncrafter.mCCodeCamp.lib.input.ActivationHandler.ButtonInput;
+import me.simoncrafter.mCCodeCamp.lib.input.inputSign.SignInput;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ConfigManager {
 
@@ -30,6 +34,9 @@ public class ConfigManager {
 
         autoReload = config.getBoolean(autoReloadConfigString, false);
         unlockedMode = config.getBoolean(unlockedModeConfigString, false);
+
+        ButtonInput.initialize(MCCodeCamp.getInstance(), config);
+        SignInput.initialize(MCCodeCamp.getInstance(), config);
     }
 
     public static boolean isAutoReload() {
@@ -48,6 +55,60 @@ public class ConfigManager {
 
     public static void setUnlockedMode(boolean unlockedMode) {
         ConfigManager.unlockedMode = unlockedMode;
+    }
+
+    public record InputEntry(String key, String world, double x, double y, double z, Map<String, Object> args) {}
+
+    public static void addButtonInput(InputEntry entry) {
+        Map<String, Object> entryMap = new HashMap<>();
+        entryMap.put("key", entry.key);
+        entryMap.put("world", entry.world);
+        entryMap.put("x", entry.x);
+        entryMap.put("y", entry.y);
+        entryMap.put("z", entry.z);
+        entryMap.put("args", entry.args);
+
+        java.util.List<Map<?, ?>> list = config.getMapList("inputs.buttons");
+        list.add(entryMap);
+        config.set("inputs.buttons", list);
+        save();
+        ButtonInput.loadFromConfig(config);
+    }
+
+    public static void removeButtonInput(String key) {
+        java.util.List<Map<?, ?>> list = config.getMapList("inputs.buttons");
+        if (list == null || list.isEmpty()) return;
+
+        list.removeIf(item -> key.equals(item.get("key")));
+        config.set("inputs.buttons", list);
+        save();
+        ButtonInput.loadFromConfig(config);
+    }
+
+    public static void addSignInput(InputEntry entry) {
+        Map<String, Object> entryMap = new HashMap<>();
+        entryMap.put("key", entry.key);
+        entryMap.put("world", entry.world);
+        entryMap.put("x", entry.x);
+        entryMap.put("y", entry.y);
+        entryMap.put("z", entry.z);
+        entryMap.put("args", entry.args);
+
+        java.util.List<Map<?, ?>> list = config.getMapList("inputs.signs");
+        list.add(entryMap);
+        config.set("inputs.signs", list);
+        save();
+        SignInput.loadFromConfig(config);
+    }
+
+    public static void removeSignInput(String key) {
+        java.util.List<Map<?, ?>> list = config.getMapList("inputs.signs");
+        if (list == null || list.isEmpty()) return;
+
+        list.removeIf(item -> key.equals(item.get("key")));
+        config.set("inputs.signs", list);
+        save();
+        SignInput.loadFromConfig(config);
     }
 
     private static void save() {

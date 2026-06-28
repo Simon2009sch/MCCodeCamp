@@ -1,4 +1,4 @@
-package me.simoncrafter.mCCodeCamp.lib.ActivationHandler;
+package me.simoncrafter.mCCodeCamp.lib.input.ActivationHandler;
 
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;

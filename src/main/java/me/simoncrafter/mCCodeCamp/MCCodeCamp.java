@@ -1,10 +1,8 @@
 package me.simoncrafter.mCCodeCamp;
 
 import me.simoncrafter.CraftersChatDialogs.InstanceData;
-import me.simoncrafter.mCCodeCamp.YOURCODE.basics.example1.Example1;
 import me.simoncrafter.mCCodeCamp.lib.*;
-import me.simoncrafter.mCCodeCamp.lib.ActivationHandler.ActivationEvents;
-import me.simoncrafter.mCCodeCamp.lib.Commands.ButtonifyCommand;
+import me.simoncrafter.mCCodeCamp.lib.Commands.CreateInputCommand;
 import me.simoncrafter.mCCodeCamp.lib.Commands.ReloadInterfaceCommand;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
@@ -28,14 +26,18 @@ public final class MCCodeCamp extends JavaPlugin {
     public void onEnable() {
         instance = this;
         ConfigManager.load();
-        Bukkit.getPluginManager().registerEvents(new ActivationEvents(), this);
-        Bukkit.getPluginManager().registerEvents(new Listeners(), this);
-        Bukkit.getPluginCommand("buttonify").setExecutor(new ButtonifyCommand());
+        registerListeners();
+        Bukkit.getPluginCommand("createInput").setExecutor(new CreateInputCommand());
         Bukkit.getPluginCommand("reloadMCCodeCampInterface").setExecutor(new ReloadInterfaceCommand());
         InstanceData.register(this);
         CourseLoader.loadExamples();
-        Chat.broadcast(Component.text("Your code was successfully loaded!", NamedTextColor.GREEN, TextDecoration.BOLD));
+        tickLoop();
+        startReloadEndpoint();
 
+        Chat.broadcast(Component.text("Your code was successfully loaded!", NamedTextColor.GREEN, TextDecoration.BOLD));
+    }
+
+    private void tickLoop() {
         new BukkitRunnable(){
             @Override
             public void run() {
@@ -45,7 +47,9 @@ public final class MCCodeCamp extends JavaPlugin {
                 }
             }
         }.runTaskTimer(this, 0, 1);
+    }
 
+    private void startReloadEndpoint() {
         try {
             reloadServer = com.sun.net.httpserver.HttpServer.create(new InetSocketAddress(8765), 0);
             reloadServer.createContext("/reload", exchange -> {
@@ -58,7 +62,10 @@ public final class MCCodeCamp extends JavaPlugin {
         } catch (Exception e) {
             Logs.warn("There was an error while trying to open the reload endpoint\n" + e);
         }
+    }
 
+    private void registerListeners() {
+        Bukkit.getPluginManager().registerEvents(new Listeners(), this);
     }
 
     @Override

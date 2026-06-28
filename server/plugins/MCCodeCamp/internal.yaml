@@ -1,2 +1,23 @@
 autoreload: true
 unlockedMode: true
+inputs:
+  buttons:
+  - args: {}
+    world: world
+    x: 873.0
+    y: 78.0
+    z: 397.0
+    key: myThirdButton
+  - args: {}
+    world: world
+    x: 869.0
+    y: 78.0
+    z: 397.0
+    key: myFirstButton
+  signs:
+  - args: {}
+    world: world
+    x: 873.0
+    y: 78.0
+    z: 391.0
+    key: mySign

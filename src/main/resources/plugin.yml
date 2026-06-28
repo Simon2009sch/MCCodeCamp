@@ -5,6 +5,6 @@ main: me.simoncrafter.mCCodeCamp.MCCodeCamp
 api-version: '1.21.1'
 
 commands:
-  buttonify:
-    description: "Gives the executing player a Item that makes a block into a clickable block"
+  createInput:
+    description: "Creates an input that can be used in code"
   reloadMCCodeCampInterface: {}

@@ -18,7 +18,7 @@ public class BackendExample1 implements ICourseExample {
 
     @Override
     public void onLoad() {
-        door = new SimpleDoor(Bukkit.getWorld("world"), new Vector(230, 82, 58), new Vector(236, 87, 58), Material.DIAMOND_BLOCK);
+        door = new SimpleDoor(Bukkit.getWorld("world"), new Vector(860, 79, 406), new Vector(860, 83, 401), Material.DIAMOND_BLOCK);
         workingArea = new Example1(door);
     }
 
