@@ -1,0 +1,11 @@
+# Ignore all directories by default
+*/
+plugins/FastAsyncWorldEdit/clipboard
+plugins/FastAsyncWorldEdit/history
+# Un-ignore specific directories to keep
+!cache/
+!config/
+!libraries/
+!plugins/
+!versions/
+!world/
