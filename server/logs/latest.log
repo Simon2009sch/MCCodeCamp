@@ -456,3 +456,40 @@
 [20:12:21] [Server thread/INFO]: [__Crafter__: Changed the block at 880, 78, 393]
 [20:14:17] [Server thread/INFO]: __Crafter__ issued server command: /paper:callback cfad59e0-3f7d-4b0f-b77c-59de27c29692
 [20:14:35] [Server thread/INFO]: __Crafter__ has made the advancement [Monster Hunter]
+[20:22:52] [Server thread/INFO]: Stopping the server
+[20:22:52] [Server thread/INFO]: Stopping server
+[20:22:52] [Server thread/INFO]: [MCCodeCamp] Disabling MCCodeCamp v1.0
+[20:22:52] [Server thread/INFO]: [AxiomPaper] Disabling AxiomPaper v5.0.4+1.21.1
+[20:22:52] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.2+e9ed0d1
+[20:22:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:22:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.57
+[20:22:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:22:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:22:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:22:52] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.7.1
+[20:22:52] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[20:22:52] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.3
+[20:22:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.2
+[20:22:52] [Server thread/INFO]: Saving players
+[20:22:52] [Server thread/INFO]: __Crafter__ lost connection: Server closed
+[20:22:52] [Server thread/INFO]: __Crafter__ left the game
+[20:22:52] [Server thread/INFO]: Saving worlds
+[20:22:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:22:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:22:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:22:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Saved 60 block chunks, 170 entity chunks, 0 poi chunks in world 'world' in 0,14s
+[20:22:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[20:22:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:22:53] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[20:22:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:22:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:22:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:22:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
